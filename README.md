@@ -11,10 +11,7 @@ make migrate
 make createseuperuser
 make runserver
 
-
-
 Esse projeto foi criado assim:
-
 
 poetry init
 poetry add django
