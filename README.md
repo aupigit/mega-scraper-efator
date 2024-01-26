@@ -3,7 +3,7 @@ Projeto inicial para aplicações em Django
 
 
 
-#Como usar a primeira vez:
+# Como usar a primeira vez:
 
 ```bash
 poetry install
@@ -13,7 +13,7 @@ make createseuperuser
 make runserver
 ```
 
-#Esse projeto foi criado assim:
+# Esse projeto foi criado assim:
 
 ```bash
 poetry init
