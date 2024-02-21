@@ -9,7 +9,7 @@ Projeto inicial para aplicações em Django
 poetry install
 make rundb
 make migrate
-make createseuperuser
+make createsuperuser
 make runserver
 ```
 

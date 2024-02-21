@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "aupi-django-boilerplate"
+name = "mega-scraper-efator"
 version = "0.1.0"
 description = ""
 authors = ["Felipe O. Aviz <felipe@aupi.com.br>"]
