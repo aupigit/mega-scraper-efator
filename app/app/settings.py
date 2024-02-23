@@ -11,7 +11,7 @@ PROJECT_DIR = Path(__file__).absolute().parents[1]
 SECRET_KEY = config("DJANGO_SECRET_KEY")
 DEBUG = config("DJANGO_DEBUG", default=False, cast=config.boolean)
 ALLOWED_HOSTS = config("DJANGO_ALLOWED_HOSTS", default="*", cast=config.list)
-CORS_ALLOWED_ORIGINS = config("DJANGO_CORS_ALLOWED_ORIGINS", default="", cast=config.list)
+# CORS_ALLOWED_ORIGINS = config("DJANGO_CORS_ALLOWED_ORIGINS", default="", cast=config.list)
 CSRF_TRUSTED_ORIGINS = config("DJANGO_CSRF_TRUSTED_ORIGINS", default="", cast=config.list)
 
 # Application definition
@@ -34,7 +34,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
-    "corsheaders.middleware.CorsMiddleware",
+    # "corsheaders.middleware.CorsMiddleware",
     "django.middleware.common.CommonMiddleware",
 ]
 
@@ -59,7 +59,7 @@ MEDIA_ROOT = PROJECT_DIR / "mediafiles"
 STATIC_URL = "/static/"
 STATIC_ROOT = PROJECT_DIR / "staticfiles"
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+# STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
 
 TEMPLATES = [
     {
